@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+table{
+    
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    width: 100px;    
+  }
+  tr,td {
+    height: 50px;
+    border: 50px solid white;
+  }
+  
+  tr:nth-of-type(even) td:nth-of-type(odd),tr:nth-of-type(odd) td:nth-of-type(even){
+    background: orangered;
+    border: 5px solid green;
+    
+  }
+  tr:nth-of-type(even) td:nth-of-type(even),
+  tr:nth-of-type(odd) td:nth-of-type(odd){
+    background: green;
+    border: 5px solid orangered ;
+  }
+ 
+  
+  /* table {
+    margin: 50px auto;
+    border: 2px solid red;
+    border-collapse: collapse;
+    font-family: montserrat;
+}
+td, th {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.orange {
+    background: orange;
+    color: white;
+    font-weight: bold;
+}
+
+thead {
+    background: red;
+} */
